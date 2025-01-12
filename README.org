@@ -1,0 +1,9 @@
+#+title: Java 2024 lab2
+
+* Building
+The build process automatically runs test which demonstrate the
+implementation's correctness.
+
+#+begin_src sh
+test -d ./build && unlink ./build; guix build --file=guix.scm --root=build
+#+end_src
